@@ -34,15 +34,7 @@
       noSide[|borders:no| stroke no side ];
     </pre>
 
-    <script type="module">
-      import mermaid from './mermaid.esm.mjs';
-      mermaid.initialize({
-        theme: 'forest',
-        logLevel: 3,
-        securityLevel: 'loose',
-        flowchart: { curve: 'basis' },
-      });
-    </script>
+    <script src="main.ts" type="module"></script>
     <script>
       function testClick(nodeId) {
         console.log('clicked', nodeId);
